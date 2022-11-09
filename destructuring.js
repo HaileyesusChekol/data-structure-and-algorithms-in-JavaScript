@@ -22,6 +22,7 @@ const [food] = hotel.breakFast;
 console.log(food);
 console.log(hotel.order(0,1));
 
+
 //destructuring
 const [starter,final] = hotel.order(0,1);
 console.log(starter,final);
