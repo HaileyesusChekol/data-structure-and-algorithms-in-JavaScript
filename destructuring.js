@@ -1,5 +1,5 @@
 'use strict'
-
+console.log('-------desttructuring from array------')
 //destructuring an array
 const arr =['hello','this','is','destructuring'];
 
