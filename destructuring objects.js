@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 console.log('-------desttructuring from object------')
 const restaurant = {
   names: 'Classico Italiano',
