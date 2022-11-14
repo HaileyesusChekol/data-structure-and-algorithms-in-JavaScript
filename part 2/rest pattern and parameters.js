@@ -21,11 +21,19 @@ const hotel ={
 
     deliver :function(ingrident1,ingrident2,...other){
         console.log(ingrident1 ,ingrident2 , other);
-    }
+    } 
 
 }
+
 
 const [pizza,  ...restOne] = [...hotel.Breakfast];
 console.log(pizza , restOne);
 
 hotel.deliver(...hotel.Breakfast);
+const menu = [...hotel.juice];
+// looping an array
+// for(const items of menu) console.log(items);
+
+for(const [num, item] of menu.entries()){
+console.log(`number ${num+1} ${item}`);
+}
